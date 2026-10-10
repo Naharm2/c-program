@@ -14,5 +14,5 @@ int main()
     printf("Rate of Interest = %f\n", r);
     printf("Time in years = %f\n", t);
     printf("Simple Interest = %f\n", si);
-    
+    return 0;
 }
