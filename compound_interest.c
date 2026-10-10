@@ -1,18 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int p,r,t,ci;
-    printf("Enter principal amount: ");
-    scanf("%d", &p);
-    printf("Enter rate of interest: ");
-    scanf("%d", &r);
-    printf("Enter time in years: ");
-    scanf("%d", &t);
-    ci = p * (1 + r / 100) * t;
-    printf("-----Results-----\n");
-    printf("Principal Amount = %d\n", p);
-    printf("Rate of Interest = %d\n", r);
-    printf("Time in years = %d\n", t);
-    printf("Compound Interest = %d\n", ci);
+    float radius,area,circumference;
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+    area = 3.14 * radius * radius;
+    circumference = 2 * 3.14 * radius;
+    printf("Area of the circle = %f\n", area);
+    printf("Circumference of the circle = %f\n", circumference);
     return 0;
 }
