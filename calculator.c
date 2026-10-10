@@ -15,4 +15,5 @@ int main()
     printf("Mul: %d\n",mul);
     printf("Div: %d\n",div);
     return 0;
+    
 }
