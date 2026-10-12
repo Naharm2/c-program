@@ -1,15 +1,23 @@
-#include <stdio.h>
-
+#incluide<stdio.h>
 int main() {
-    int timer = 5; // शुरुआत 5 से होगी
+    int a ,b ;
+int sum,sub,mul,div,mode;
+printf("Enter the value of a : ");
+scanf("%d",&a);
+printf("Enter the value of b : ");
+scanf("%d",&b);
 
-    // जब तक टाइमर 0 से बड़ा है, लूप चलेगा
-    while (timer > 0) {
-        printf("रॉकेट लॉन्च इन: %d... 🚀\n", timer);
-        
-        timer--; // हर बार टाइमर को 1 से कम कर रहे हैं (5, 4, 3, 2, 1)
-    }
+sum = a+b;
+sub = a-b;
+mul = a*b;
+div = a/b;
+mode = a%d;
 
-    printf("BOOM! रॉकेट उड़ गया! 🌌🛸\n");
-    return 0;
+printf("addition of (a+b) : %d \n");
+printf("subtraction of (a-b) : %d \n");
+printf("multiple of (a*b) : %d \n");
+printf("division of (a/b) : %d \n");
+printf("mode of (a%b) : %d \n");
+
+return 0;
 }
